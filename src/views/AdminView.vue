@@ -521,6 +521,10 @@ export default {
         font-weight: bold;
         font-family: "Montserrat";
         margin-bottom: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
       &__description {
         color: #7a7a7a;
